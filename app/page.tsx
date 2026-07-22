@@ -271,6 +271,30 @@ export default function Home() {
                         <div className="hero-badge">
                             <p>Registered, compliant, and community focused</p>
                             <strong>Healthcare with measurable local impact</strong>
+                            <span>School camps, rural outreach, and public health support</span>
+                            <div className="hero-badge__list" aria-label="Featured service areas">
+                                <div className="hero-badge__item">
+                                    <span className="hero-badge__dot" aria-hidden="true" />
+                                    <div>
+                                        <strong>School screenings</strong>
+                                        <p>Health checks and follow-up support for students.</p>
+                                    </div>
+                                </div>
+                                <div className="hero-badge__item">
+                                    <span className="hero-badge__dot" aria-hidden="true" />
+                                    <div>
+                                        <strong>Village outreach</strong>
+                                        <p>Preventive care and awareness in underserved areas.</p>
+                                    </div>
+                                </div>
+                                <div className="hero-badge__item">
+                                    <span className="hero-badge__dot" aria-hidden="true" />
+                                    <div>
+                                        <strong>Health camps</strong>
+                                        <p>Community checkups, consultations, and referrals.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </aside>
