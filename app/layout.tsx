@@ -16,7 +16,12 @@ const body = Source_Sans_3({
 export const metadata: Metadata = {
     title: "Smt. Meera Rani Samajik Utthan Sansthan",
     description:
-        "A clean NGO website for healthcare, school camps, rural outreach, certifications, awards, and community impact."
+        "A clean NGO website for healthcare, school camps, rural outreach, certifications, awards, and community impact.",
+    icons: {
+        icon: "/favicon.ico",
+        shortcut: "/favicon.ico",
+        apple: "/favicon.ico"
+    }
 };
 
 export default function RootLayout({
